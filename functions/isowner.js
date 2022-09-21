@@ -1,8 +1,8 @@
 const fetch = require('node-fetch')
 
-const CONTRACT = process.env.0x1A2F1965013d909C8539821CA7b1Bd4D616F09f9;
+const CONTRACT = process.env.CONTRACT_ADDRESS;
 const AUTH = process.env.NFTPORT_AUTH;
-const chain = "mumbai";
+const chain = "polygon";
 const include = "metadata";
 
 exports.handler = async (event, context) => {
