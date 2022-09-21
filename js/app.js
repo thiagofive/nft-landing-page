@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'TokenRioClub';
+const COLLECTION_NAME = 'Test Crazy Train Art';
 let editions = [];
 let dots = 1;
 
